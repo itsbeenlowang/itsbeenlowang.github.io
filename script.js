@@ -1,7 +1,6 @@
 function copyBitcoinAddress() {
-  const btcAddress = document.getElementById('btc-address');
+  var btcAddress = document.getElementById('btc-address');
   btcAddress.select();
   document.execCommand('copy');
-  alert('Bitcoin address copied to clipboard!');
+  alert('Bitcoin address copied!');
 }
-

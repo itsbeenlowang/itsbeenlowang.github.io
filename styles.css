@@ -80,6 +80,12 @@ footer p {
   color: #fff;
 }
 
+/* Media queries */
+@media only screen and (max-width: 600px) {
+  .donation-info {
+    max-width: 100%;
+  }
+
   input[type="text"], button {
     width: 100%;
   }
