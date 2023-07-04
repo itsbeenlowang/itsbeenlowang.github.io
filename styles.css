@@ -85,7 +85,9 @@ footer p {
   .donation-info {
     max-width: 100%;
   }
-
+.p {
+    max-width: 100%;
+  }
   input[type="text"], button {
     width: 100%;
   6
