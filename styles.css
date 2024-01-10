@@ -62,6 +62,11 @@ p {
   align-items: center;
 }
 
+.usdt-address {
+  display: flex;
+  align-items: center;
+}
+
 
 /* Footer styles */
 footer {
