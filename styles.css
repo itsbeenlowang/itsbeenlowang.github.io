@@ -45,31 +45,15 @@ main {
   margin-bottom: 15px;
 }
 
-/* Style the barcode image */
-.bitcoin-address img, #usdt-address img {
-  margin-left: 10px; /* Adjust the margin as needed */
-  height: 20px; /* Adjust the height as needed */
-  width: auto;
-}
-
 .copy-button {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.bitcoin-copy-button {
   background-color: #4CAF50; /* Green */
   color: white;
   border: none;
   margin-right: 10px;
-}
-
-.usdt-copy-button {
-  background-color: #4CAF50; /* Green */
-  color: white;
-  border: none;
 }
 
 /* Footer styles */
