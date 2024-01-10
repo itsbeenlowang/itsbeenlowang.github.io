@@ -3,30 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitcoin Donation</title>
+  <title>Buy me a Coffee!!</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1></h1>
+    <h1>Buy me a Coffee!!</h1>
   </header>
 
   <main>
     <section class="donation-info">
-      <h2>Buy me a Coffee!!</h2>
-      <p>Your support means a lot.</p>
       <h2>Bitcoin Address:</h2>
-      <div id="bitcoin-address" class="bitcoin-address">1MSoT2UgNjirRvjLo4yBd34nE3diiMnhst</div>
-      <button class="copy-button" onclick="copyToClipboard()">Copy Address</button>
+      <div id="bitcoin-address" class="bitcoin-address">
+        1MSoT2UgNjirRvjLo4yBd34nE3diiMnhst
+        <img src="path/to/bitcoin_barcode.png" alt="Bitcoin Barcode">
+      </div>
+      <button class="copy-button bitcoin-copy-button" onclick="copyToClipboard('bitcoin-address')">Copy Address</button>
+
       <h2>USDT Address:</h2>
-      <div id="usdt-address" class="usdt-address">0x524e8242a438eb8d1a7fd2d87af9789bc1f83af0</div>
-      <button class="copy-button2" onclick="copyToClipboard()">Copy Address</button>
+      <div id="usdt-address" class="bitcoin-address">
+        0x524e8242a438eb8d1a7fd2d87af9789bc1f83af0
+        <img src="path/to/usdt_barcode.png" alt="USDT Barcode">
+      </div>
+      <button class="copy-button usdt-copy-button" onclick="copyToClipboard('usdt-address')">Copy Address</button>
     </section>
   </main>
 
   <footer>
-    <p>Thank you so much. 
-FOR THE SUPPORT!!</p>
+    <p>Thank you so much. FOR THE SUPPORT!!</p>
   </footer>
 
   <script src="script.js"></script>

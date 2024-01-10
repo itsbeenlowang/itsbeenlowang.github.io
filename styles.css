@@ -8,8 +8,8 @@
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
   line-height: 1.6;
 }
 
@@ -32,41 +32,45 @@ main {
 .donation-info {
   max-width: 700px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* White text color */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.bitcoin-address, #usdt-address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Style the barcode image */
+.bitcoin-address img, #usdt-address img {
+  margin-left: 10px; /* Adjust the margin as needed */
+  height: 20px; /* Adjust the height as needed */
+  width: auto;
+}
+
 .copy-button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 4px;
-
-        }
-
-h2 {
-  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-p {
-  margin-bottom: 20px;
+.bitcoin-copy-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  margin-right: 10px;
 }
 
-.bitcoin-address {
-  display: flex;
-  align-items: center;
+.usdt-copy-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
 }
-
-.usdt-address {
-  display: flex;
-  align-items: center;
-}
-
 
 /* Footer styles */
 footer {
@@ -77,24 +81,4 @@ footer {
 
 footer p {
   color: #fff;
-}
-
-/* Media queries */
-@media only screen and (max-width: 500px) {
-  .donation-info {
-    max-width: 100%;
-  }
-
-  .p {
-    max-width: 100%;
-  }
-
-  .copy-button {
-    max-width: 100%;
-        }
-
-  .bitcoin-address {
-    max-width: 100%;
-}
-
 }
